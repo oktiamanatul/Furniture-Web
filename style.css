@@ -1,0 +1,82 @@
+.teks1 {
+  font-size: 26px;
+  color: rgb(243, 96, 169);
+}
+
+.teks2 {
+  font-size: 12px;
+}
+
+.card{
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border: none;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+h5.card-title {
+  font-size: 50px;
+  text-align: center;
+}
+p.card-text{
+  font-size: 20px;
+  text-align: center;
+}
+
+
+
+.navbar-nav .nav-link {
+  transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: rgb(243, 96, 169);
+}
+
+.frame2-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.frame2-container img {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.frame2-container img:hover {
+  transform: scale(1.05);
+}
+
+.carousel-inner {
+  height: 550px;
+  overflow: hidden;
+}
+
+.carousel-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.body {
+  font-weight: 400;
+  font-style:normal;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: normal;
+  line-height: 1.15;
+  color: var(--dl-color-gray-black);
+  background-color: var(--dl-color-gray-white);
+  overflow-x: hidden; /* Menghilangkan scrollbar horizontal */
+}
+
+  /* Media query to revert to block display on screens larger than 768px */
+  @media (min-width: 769px) {
+    .frame2-group3, .frame2-group2, .frame2-group1 {
+      display: block;
+    }
+  }

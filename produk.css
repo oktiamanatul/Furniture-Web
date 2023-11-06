@@ -1,0 +1,66 @@
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Anda dapat mengganti nilai tinggi sesuai kebutuhan */
+    
+  }
+  
+
+.teks1 {
+    font-size: 26px;
+    color: rgb(243, 96, 169);
+  }
+  
+  .teks2 {
+    font-size: 12px;
+  }
+    
+  .navbar-nav .nav-link {
+    transition: color 0.3s;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: rgb(243, 96, 169);
+  }
+
+.card-img-top {
+    border: none;
+    padding: 20px;
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+  
+.card{
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 7px 0px;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+ .card:hover {
+    transform: scale(1.05);
+}
+
+.card-body{
+    padding: 25px;
+    margin-top: -15px;
+}
+
+h3,h5{
+    color:black;
+}
+
+.rating .fa-star {
+    font-size: 12px;
+    color: gold; 
+    margin-right: 5px; 
+}
+.rating .far {
+    font-size: 12px;
+    color: #ccc; 
+    margin-right: 5px; 
+}
